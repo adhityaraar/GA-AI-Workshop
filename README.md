@@ -1,6 +1,6 @@
 # Building  Apps with Streamlit
 
-# HuggingFace API Setup [Click]([https://huggingface.co/meta-llama](https://huggingface.co/))
+# HuggingFace API Setup [Click](https://huggingface.co/)
 1. Sign In or Sign Up on https://huggingface.co/.
 2. Go on Profile (avatar) and click on "Settings".
 3. Go to "Access Token" and click on "New token".
