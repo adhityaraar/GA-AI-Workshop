@@ -43,9 +43,9 @@ def initialize_llm(hf_api_key):
         # Initialize HuggingFace LLM
         # model_llm = "mistralai/Mixtral-8x22B-v0.1" #"mistralai/Mistral-7B-Instruct-v0.3"
         # model_llm = "meta-llama/Llama-3.1-70B-Instruct"
-        model_llm = "HuggingFaceH4/zephyr-7b-alpha"
+        # model_llm = "HuggingFaceH4/zephyr-7b-alpha"
         # model_llm = "meta-llama/Meta-Llama-3-70B"
-        # model_llm = "meta-llama/Llama-2-8B"
+        model_llm = "meta-llama/Llama-3-8B"
 
         prompt_template = """ 
             Anda adalah asisten yang membantu user dalam menjawab pertanyaan terkait suatu dokumen. Tugas utama Anda adalah menganalisis pertanyaan dari pengguna dan hasil query yang telah disediakan, kemudian memberikan jawaban yang jelas, tepat, dan bermanfaat.
