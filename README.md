@@ -1,6 +1,14 @@
 # Building  Apps with Streamlit
 
-# HuggingFace API Setup
+# HuggingFace API Setup [Click]([https://huggingface.co/meta-llama](https://huggingface.co/))
+1. Sign In or Sign Up on https://huggingface.co/.
+2. Go on Profile (avatar) and click on "Settings".
+3. Go to "Access Token" and click on "New token".
+4. Give a user-friendly name to the token and permission=write. Then click on generate token.
+5. Copy the token and add it in your .env file. `HUGGINGFACEHUB_API_TOKEN=<your_new_huggingface_access_token>`
+6. Model Request (Example: Go to [meta-llama card](https://huggingface.co/meta-llama) or [meta-llama-3.1-8b card](https://huggingface.co/meta-llama/Llama-3.1-8B)
+   
+# [Pineccone](https://www.pinecone.io/) API Setup [Click]([https://huggingface.co/meta-llama](https://huggingface.co/))
 1. Sign In or Sign Up on https://huggingface.co/.
 2. Go on Profile (avatar) and click on "Settings".
 3. Go to "Access Token" and click on "New token".
