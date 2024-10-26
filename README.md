@@ -17,8 +17,8 @@ Ensure you have the Python and Conda installation before going to the step below
 # Setup the code
 1. Please download the ollama model (linux/windows/mac) [here](https://ollama.com/)
 2. You can find any models on [here](https://ollama.com/library)
-3. Git clone https://github.com/adhityaraar/GA-AI-Workshop.git
-4. Open your terminal or console window
+3. Open your terminal or console window 
+4. Command `Git clone https://github.com/adhityaraar/GA-AI-Workshop.git`
 5. Command `cd genai-apps`.
 6. Add your API key to .env
 7. Run the app by running the command `streamlit run app.py`.
