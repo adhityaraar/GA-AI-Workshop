@@ -1,4 +1,6 @@
-# Building  Apps with Streamlit
+# Building  your GenAI Apps with Streamlit
+
+Make sure you have the Python and Conda installation first before going to below step!
 
 # HuggingFace API Setup
 1. Sign In or Sign Up on [Click](https://huggingface.co/).
@@ -12,13 +14,14 @@
 1. Sign In or Sign Up on [Click](https://www.pinecone.io/).
 2. Go to API Keys
 
-# Startup
-1. Open your terminal or console window
-2. cd into this lab's base directory
-3. Copy your .env file into this lab's base folder
-4. Add HuggingFaceToken to .env file. See the HuggingFace API Setup section below.
-5. Run the app by running the command `streamlit run app.py`.
-6. You can ask example questions in Bahasa
+# Setup the code
+1. Please download the ollama model (linux/windows/mac) [Click](https://ollama.com/)
+2. Git clone https://github.com/adhityaraar/GA-AI-Workshop.git
+3. Open your terminal or console window
+4. Command `cd genai-apps`.
+5. Add your API key to .env
+6. Run the app by running the command `streamlit run app.py`.
+7. You can ask example questions in Bahasa
 
 ### Contoh Pertanyaan:
 - Pertanyaan easy
