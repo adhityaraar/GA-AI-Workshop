@@ -7,12 +7,13 @@ Ensure you have the Python and Conda installation before going to the step below
 2. Go to Profile (avatar) and click on "Settings".
 3. Go to "Access Token" and click on "New token".
 4. Give a user-friendly name to the token and permission=write. Then click on generate token.
-5. Copy the token and add it to your .env file. `HUGGINGFACEHUB_API_TOKEN=<your_new_huggingface_access_token>`
+5. Copy the token and add it to your .env file. `HF_KEY=<your_new_huggingface_access_token>`
 6. Model Request (Example: Go to [meta-llama card](https://huggingface.co/meta-llama) or [meta-llama-3.1-8b card](https://huggingface.co/meta-llama/Llama-3.1-8B)
    
 # Pineccone API Setup
 1. Sign In or Sign Up on [here](https://www.pinecone.io/).
 2. Go to API Keys
+3. Copy the token and add it to your .env file. `PINECONE_KEY=<your_pinecone_access_token>`
 
 # Setup the code
 1. Please download the ollama model (linux/windows/mac) [here](https://ollama.com/)
