@@ -22,7 +22,7 @@ Ensure you have the Python and Conda installation before going to the step below
 5. Command `cd genai-apps`.
 6. Add your API key to .env
 7. Run the app by running the command `streamlit run app.py`.
-8. You can ask example questions in Bahasa
+8. Put your documents on `/data` and start asking your queries!
 
 ### Contoh Pertanyaan:
 - Pertanyaan easy
