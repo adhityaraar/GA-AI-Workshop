@@ -1,27 +1,28 @@
 # Building  your GenAI Apps with Streamlit
 
-Make sure you have the Python and Conda installation first before going to below step!
+Ensure you have the Python and Conda installation before going to the step below!
 
 # HuggingFace API Setup
-1. Sign In or Sign Up on [Click](https://huggingface.co/).
+1. Sign In or Sign Up on [here](https://huggingface.co/).
 2. Go to Profile (avatar) and click on "Settings".
 3. Go to "Access Token" and click on "New token".
 4. Give a user-friendly name to the token and permission=write. Then click on generate token.
-5. Copy the token and add it in your .env file. `HUGGINGFACEHUB_API_TOKEN=<your_new_huggingface_access_token>`
+5. Copy the token and add it to your .env file. `HUGGINGFACEHUB_API_TOKEN=<your_new_huggingface_access_token>`
 6. Model Request (Example: Go to [meta-llama card](https://huggingface.co/meta-llama) or [meta-llama-3.1-8b card](https://huggingface.co/meta-llama/Llama-3.1-8B)
    
 # Pineccone API Setup
-1. Sign In or Sign Up on [Click](https://www.pinecone.io/).
+1. Sign In or Sign Up on [here](https://www.pinecone.io/).
 2. Go to API Keys
 
 # Setup the code
-1. Please download the ollama model (linux/windows/mac) [Click](https://ollama.com/)
-2. Git clone https://github.com/adhityaraar/GA-AI-Workshop.git
-3. Open your terminal or console window
-4. Command `cd genai-apps`.
-5. Add your API key to .env
-6. Run the app by running the command `streamlit run app.py`.
-7. You can ask example questions in Bahasa
+1. Please download the ollama model (linux/windows/mac) [here](https://ollama.com/)
+2. You can find any models on [here](https://ollama.com/library)
+3. Git clone https://github.com/adhityaraar/GA-AI-Workshop.git
+4. Open your terminal or console window
+5. Command `cd genai-apps`.
+6. Add your API key to .env
+7. Run the app by running the command `streamlit run app.py`.
+8. You can ask example questions in Bahasa
 
 ### Contoh Pertanyaan:
 - Pertanyaan easy
