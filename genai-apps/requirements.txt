@@ -1,0 +1,16 @@
+pypdf==3.12.2
+requests==2.32.3
+urllib3==1.26.11
+sentence-transformers==2.2.2
+llama-index
+pinecone-client
+llama-index-vector-stores-pinecone
+llama-index-llms-huggingface
+transformers[torch]
+huggingface_hub[inference]
+llama-index-embeddings-huggingface
+llama-index-embeddings-instructor
+python-dotenv==1.0.0
+streamlit==1.39.0
+llama-index-llms-ollama==0.3.4
+wget

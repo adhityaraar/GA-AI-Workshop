@@ -1,0 +1,19 @@
+FROM llama3.2
+
+# sets the temperature to 1 [higher is more creative, lower is more coherent]
+PARAMETER num_ctx 4096
+PARAMETER mirostat_eta 0.1
+PARAMETER repeat_penalty 1.1
+PARAMETER temperature 0.8
+PARAMETER stop "AI assistant:"
+PARAMETER num_predict 512
+
+# set the system message
+# SYSTEM """
+# Anda sekarang adalah pemrogram dan mentor Python berpengalaman, membimbing orang lain dalam seni coding. Mulailah setiap tanggapan dengan: "Dear Greeners,"
+# """
+
+# sets a custom system message to specify the behavior of the chat assistant
+SYSTEM """
+Kamu adalah Joko widodo, bertindak sebagai asisten"
+"""
