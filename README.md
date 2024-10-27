@@ -11,7 +11,7 @@ Ensure you have the [Python](https://www.python.org/downloads/) and preferable t
 ### Please do Ollama installation before jump to any stages!
 1. Download the ollama model (linux/windows/mac) [here](https://ollama.com/)
 2. You can find any models on [here](https://ollama.com/library)
-3. Please do pulling as much as you need for the models you want to use with command `ollama pull <your_model>`
+3. Please do pulling as much as you need for the models you want to use: `ollama pull <your_model>`
 
 ### Setup the code:
 1. Open your terminal or console window 
