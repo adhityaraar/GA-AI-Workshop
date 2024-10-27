@@ -2,7 +2,7 @@
 
 Ensure you have the [Python](https://www.python.org/downloads/) and [Conda](https://docs.anaconda.com/miniconda/) installation before going to the step below!
 
-# There are 3 stages:
+### There are 3 stages:
 1. Play around with your prompt! go to [genai-prompt](https://github.com/adhityaraar/GA-AI-Workshop/tree/main/genai-prompt)
 2. Create simple chat with your own personality! go to [genai-chat](https://github.com/adhityaraar/GA-AI-Workshop/tree/main/genai-chat)
 3. Building your apps with your own document! go to [genai-apps](https://github.com/adhityaraar/GA-AI-Workshop/tree/main/genai-apps)
@@ -12,7 +12,7 @@ Ensure you have the [Python](https://www.python.org/downloads/) and [Conda](http
 1. Download the ollama model (linux/windows/mac) [here](https://ollama.com/)
 2. You can find any models on [here](https://ollama.com/library)
 
-# HuggingFace API Setup
+### HuggingFace API Setup
 1. Sign In or Sign Up on [here](https://huggingface.co/).
 2. Go to Profile (avatar) and click on "Settings".
 3. Go to "Access Token" and click on "New token".
@@ -20,12 +20,12 @@ Ensure you have the [Python](https://www.python.org/downloads/) and [Conda](http
 5. Copy the token and add it to your .env file. `HF_KEY=<your_new_huggingface_access_token>`
 6. Model Request (Example: Go to [meta-llama card](https://huggingface.co/meta-llama) or [meta-llama-3.1-8b card](https://huggingface.co/meta-llama/Llama-3.1-8B)
    
-# Pineccone API Setup
+### Pineccone API Setup
 1. Sign In or Sign Up on [here](https://www.pinecone.io/).
 2. Go to API Keys
 3. Copy the token and add it to your .env file. `PINECONE_KEY=<your_pinecone_access_token>`
 
-# Setup the code
+### Setup the code
 1. Open your terminal or console window 
 2. Command `Git clone https://github.com/adhityaraar/GA-AI-Workshop.git`
 3. Command `cd genai-apps`.
@@ -33,7 +33,7 @@ Ensure you have the [Python](https://www.python.org/downloads/) and [Conda](http
 5. Run the app by running the command `streamlit run app.py`.
 6. Put your documents on `/data` and start asking your queries!
 
-### Contoh Pertanyaan:
+### Example Questions:
 Document: [Peraturan Perusahaan](https://github.com/adhityaraar/GA-AI-Workshop/blob/main/data/Peraturan_Perusahaan.pdf)
 - Pertanyaan easy
     - Pada pukul berapa karyawan mulai bekerja?
