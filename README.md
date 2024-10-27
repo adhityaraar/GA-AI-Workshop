@@ -8,7 +8,7 @@ Ensure you have the [Python](https://www.python.org/downloads/) and [Conda](http
 3. Building your apps with your own document! go to [genai-apps](https://github.com/adhityaraar/GA-AI-Workshop/tree/main/genai-apps)
 4. For the data you can use [here](https://github.com/adhityaraar/GA-AI-Workshop/tree/main/data)
 
-# Please do Ollama installation before jump to any stages!
+### Please do Ollama installation before jump to any stages!
 1. Download the ollama model (linux/windows/mac) [here](https://ollama.com/)
 2. You can find any models on [here](https://ollama.com/library)
 
