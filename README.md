@@ -1,6 +1,16 @@
-# Building  your GenAI Apps with Streamlit
+# Building your GenAI with Ollama!
 
-Ensure you have the Python and Conda installation before going to the step below!
+Ensure you have the [Python](https://www.python.org/downloads/) and [Conda](https://docs.anaconda.com/miniconda/) installation before going to the step below!
+
+# There are 3 stages:
+1. Play around with your prompt! go to [genai-prompt](https://github.com/adhityaraar/GA-AI-Workshop/tree/main/genai-prompt)
+2. Create simple chat with your own personality! go to [genai-chat](https://github.com/adhityaraar/GA-AI-Workshop/tree/main/genai-chat)
+3. Building your apps with your own document! go to [genai-apps](https://github.com/adhityaraar/GA-AI-Workshop/tree/main/genai-apps)
+4. For the data you can use [here](https://github.com/adhityaraar/GA-AI-Workshop/tree/main/data)
+
+# Please do Ollama installation before jump to any stages!
+1. Download the ollama model (linux/windows/mac) [here](https://ollama.com/)
+2. You can find any models on [here](https://ollama.com/library)
 
 # HuggingFace API Setup
 1. Sign In or Sign Up on [here](https://huggingface.co/).
@@ -16,16 +26,15 @@ Ensure you have the Python and Conda installation before going to the step below
 3. Copy the token and add it to your .env file. `PINECONE_KEY=<your_pinecone_access_token>`
 
 # Setup the code
-1. Please download the ollama model (linux/windows/mac) [here](https://ollama.com/)
-2. You can find any models on [here](https://ollama.com/library)
-3. Open your terminal or console window 
-4. Command `Git clone https://github.com/adhityaraar/GA-AI-Workshop.git`
-5. Command `cd genai-apps`.
-6. Add your API key to .env
-7. Run the app by running the command `streamlit run app.py`.
-8. Put your documents on `/data` and start asking your queries!
+1. Open your terminal or console window 
+2. Command `Git clone https://github.com/adhityaraar/GA-AI-Workshop.git`
+3. Command `cd genai-apps`.
+4. Add your API key to .env
+5. Run the app by running the command `streamlit run app.py`.
+6. Put your documents on `/data` and start asking your queries!
 
 ### Contoh Pertanyaan:
+Document: [Peraturan Perusahaan](https://github.com/adhityaraar/GA-AI-Workshop/blob/main/data/Peraturan_Perusahaan.pdf)
 - Pertanyaan easy
     - Pada pukul berapa karyawan mulai bekerja?
     - Berapa usia pensiun karyawan?
