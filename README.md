@@ -1,6 +1,6 @@
 # Building your GenAI with Ollama!
 
-Ensure you have the [Python](https://www.python.org/downloads/) and [Conda](https://docs.anaconda.com/miniconda/) installation before going to the step below!
+Ensure you have the [Python](https://www.python.org/downloads/) and preferable to use [Conda](https://docs.anaconda.com/miniconda/) installation before going to the step below!
 
 ### There are 3 stages:
 1. Play around with your prompt! go to [genai-prompt](https://github.com/adhityaraar/GA-AI-Workshop/tree/main/genai-prompt)
