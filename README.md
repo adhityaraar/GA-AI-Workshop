@@ -40,6 +40,9 @@ Document: [Peraturan Perusahaan](https://github.com/adhityaraar/GA-AI-Workshop/b
     - Bicarakan mengenai jaminan sosial karyawan yang diberikan oleh perusahaan, termasuk hak karyawan yang meninggal dan hak keluarga karyawan yang meninggal dalam hal jaminan sosial.
 
 # For the next stages!
+
+In here we will need HuggingFace API and Pinecone API to make the model more powerful and faster!
+
 ### HuggingFace API Setup:
 1. Sign In or Sign Up on [here](https://huggingface.co/).
 2. Go to Profile (avatar) and click on "Settings".
