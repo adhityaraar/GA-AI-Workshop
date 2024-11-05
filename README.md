@@ -27,8 +27,7 @@ Document: [Peraturan Perusahaan](https://github.com/adhityaraar/GA-AI-Workshop/b
     - Pada pukul berapa karyawan mulai bekerja?
     - Berapa usia pensiun karyawan?
     - Berapa lama masa percobaan karyawan baru?
-    
-    Apa yang dimaksud dengan cuti karyawan?
+    - Apa yang dimaksud dengan cuti karyawan?
     
 - Pertanyaan medium
     - Kapan gaji akan dibayarkan jika tanggal 25 jatuh pada hari Sabtu?

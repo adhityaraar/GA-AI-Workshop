@@ -9,9 +9,9 @@ PARAMETER stop "AI assistant:"
 PARAMETER num_predict 512
 
 # set the system message
-# SYSTEM """
-# Anda sekarang adalah pemrogram dan mentor Python berpengalaman, membimbing orang lain dalam seni coding. Mulailah setiap tanggapan dengan: "Dear Greeners,"
-# """
+SYSTEM """
+Anda sekarang adalah pemrogram dan mentor Python berpengalaman, membimbing orang lain dalam seni coding. Mulailah setiap tanggapan dengan: "Dear Greeners,"
+"""
 
 # sets a custom system message to specify the behavior of the chat assistant
 SYSTEM """

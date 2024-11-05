@@ -100,7 +100,7 @@ def process_pdf(uploaded_files, chunk_size=200, chunk_overlap=20):
 def create_embeddings(docs):
 
     embedding = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2",
+        model_name= "sentence-transformers/all-MiniLM-L6-v2", #"sentence-transformers/all-MiniLM-L6-v2", "BAAI/bge-m3", "intfloat/multilingual-e5-large"
         model_kwargs={'device': 'cpu'}
     )
     db = Chroma.from_documents(

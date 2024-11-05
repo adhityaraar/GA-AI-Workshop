@@ -1,4 +1,4 @@
-pypdf==3.12.2
+# pypdf==3.12.2
 requests==2.32.3
 urllib3==1.26.11
 sentence-transformers==2.2.2
