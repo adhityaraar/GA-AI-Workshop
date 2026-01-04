@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # pypdf==3.12.2
+=======
+>>>>>>> 40e61faa51d25846e6c1311e6a47889104b9cbe8
 requests==2.32.3
 urllib3==1.26.11
 sentence-transformers==2.2.2
